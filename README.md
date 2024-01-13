@@ -20,7 +20,23 @@ The results for the Accuracy of the Test set are:
 - Knn k=3 neighbors: **0.3303**
 - Nearest Centroid:  **0.2774**
 
-The Knn classifier with 1 neighbor has the best results.
+### Multilayer Perceptron Neural Network
 
+The `Multilayer-Perceptron-NN` folder contains the file in which a multilayer perceptron neural network is implemented from scratch. The network is traing with the Backpropagation algorithm. 
+
+#### Structure 
+- One Hidden Layer (RELU activation function)
+- Output Layer (Softmaz activation function)
+
+#### Results 
+The best results were observed with the following hyperparameters - techniques 
+- Batch size = 100
+- Number of neurons in the hidden layer = 126
+- Stochastic Gradient Descent Optimizer with Learning Rate Decay (initial learning rate = 0.001, learning rate decay = 0.01)
+
+The best results are:
+- Training Loss: **0.9922**
+- Test Accuracy: **0.5021**
+- Training Time: **231.41** seconds (37 epochs)
 
 
