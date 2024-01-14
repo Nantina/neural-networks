@@ -14,7 +14,7 @@ from sklearn.metrics import confusion_matrix
 
 # Load Dataset in batches 
 
-# filename = 'cifar-10-batches-py/data_batch_1'
+# filename = '../cifar-10-batches-py/data_batch_1'
 
 # with open (filename, 'rb') as f:
 #     datadict = pickle.load(f, encoding = 'bytes')

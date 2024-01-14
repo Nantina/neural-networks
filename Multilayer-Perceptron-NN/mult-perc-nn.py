@@ -118,7 +118,7 @@ assert y_train.shape == (50000, 1)
 assert y_test.shape == (10000, 1)
 
 # Extract class names
-filename = 'cifar-10-batches-py/batches.meta'
+filename = '../cifar-10-batches-py/batches.meta'
 with open(filename, 'rb') as f:
     meta_dict = pickle.load(f, encoding='bytes')
 class_names = [class_name.decode('utf-8') for class_name in meta_dict[b'label_names']]
